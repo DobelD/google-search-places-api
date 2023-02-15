@@ -19,7 +19,7 @@ class HomeController extends GetxController {
   }
 
   void getSuggestion(String input) async {
-    String apiKey = "AIzaSyDHas1O4sXNw9ZvVupH2r3Kvzsr0DKIAP0";
+    String apiKey = "-";
     String baseUrl =
         "https://maps.googleapis.com/maps/api/place/autocomplete/json";
     String dekat =
